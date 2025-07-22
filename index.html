@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Agenda de Contatos</h1>
+    
+    <div class="container">
+        <form action="submit" id="form-agenda">
+            <input type="text" required placeholder="Digite seu nome..."  id="nome-contato">
+            <input type="number" required placeholder="Digite seu número..." id="numero-contato">
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Contato</th>
+                </tr>
+            </thead>
+            <tbody>             
+                <tr>
+                    <td id="primeiro-nome">João</td>
+                    <td id="primeiro-numero">(31) 9 95381560</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
